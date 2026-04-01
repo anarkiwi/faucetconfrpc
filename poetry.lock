@@ -1496,17 +1496,17 @@ files = [
 
 [[package]]
 name = "pybind11"
-version = "3.0.2"
+version = "3.0.3"
 description = "Seamless operability between C++11 and Python"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "pybind11-3.0.2-py3-none-any.whl", hash = "sha256:f8a6500548919cc33bcd220d5f984688326f574fa97f1107f2f4fdb4c6fb019f"},
-    {file = "pybind11-3.0.2.tar.gz", hash = "sha256:432f01aeb68e361a3a7fc7575c2c7f497595bf640f747acd909ff238dd766e06"},
+    {file = "pybind11-3.0.3-py3-none-any.whl", hash = "sha256:fb5f8e4a64946b4dcc0451c83a8c384f803bc0a62dd1ba02f199e97dbc9aad4c"},
+    {file = "pybind11-3.0.3.tar.gz", hash = "sha256:00471cdb816882c484708bc5dde80815c8c11cea540ab2cc6410f5ddea434755"},
 ]
 
 [package.extras]
-global = ["pybind11-global (==3.0.2)"]
+global = ["pybind11-global (==3.0.3)"]
 
 [[package]]
 name = "pycnite"
@@ -2179,4 +2179,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.11,<3.14"
-content-hash = "25756fe1087f430b7cf4324791ce6c53597708163318f5aa36f1b06ae65c18c7"
+content-hash = "f3e343ae0db5d6d6f70e8e488cf4a66ca7e5fb98b2689466e5babccba87d53f0"
