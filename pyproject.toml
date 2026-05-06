@@ -1,17 +1,17 @@
 [tool.poetry]
 name = "faucetconfrpc"
-version = "0.55.79"
+version = "0.55.81"
 description = "utility to manage FAUCET config files via RPC"
 authors = ["Charlie Lewis <clewis@iqt.org>"]
 license = "Apache-2.0"
 
 [tool.poetry.dependencies]
 python = ">=3.11,<3.14"
-c65faucet = "1.0.101"
+c65faucet = "1.0.102"
 grpcio = "1.80.0"
 grpcio-tools = "1.80.0"
 protobuf = "6.33.6"
-prometheus_client = "0.24.1"
+prometheus_client = "0.25.0"
 pybind11 = "3.0.4"
 # dnspython 2.3.0 is not compatible with eventlet
 # https://github.com/eventlet/eventlet/issues/781
