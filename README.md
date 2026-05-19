@@ -2,6 +2,8 @@
 
 An RPC server/client for Faucet YAML config files.
 
+> **Note:** this is the anarkiwi fork of `faucetconfrpc`. It is published to PyPI as **`faucetconfrpc-ng`** (`pip install faucetconfrpc-ng`) because the original `faucetconfrpc` PyPI project remains under previous ownership. The import path is unchanged — `import faucetconfrpc` works as before.
+
 ## Overview
 
 The Faucet SDN controller obtains its configuration from at least one YAML file,
@@ -47,7 +49,7 @@ $ docker build -f Dockerfile.server . -t iqtlabs/faucetconfrpc
 $ docker run -v /tmp/keydir:/keydir -v /tmp/conf_dir:/conf_dir -p 59999:59999/tcp iqtlabs/faucetconfrpc:latest --key=/keydir/localhost.key --cert=/keydir/localhost.crt --cacert=/keydir/ca.crt --host=0.0.0.0 --config_dir=/conf_dir
 ```
 
-In another terminal, having run `pip3 install faucetconfrpc`:
+In another terminal, having run `pip3 install faucetconfrpc-ng`:
 
 ```
 $ faucetconfrpc_client.py get_config_file --key=/tmp/keydir/client.key --cert=/tmp/keydir/client.crt --cacert=/tmp/keydir/ca.crt
