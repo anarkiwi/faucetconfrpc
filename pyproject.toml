@@ -1,9 +1,10 @@
 [tool.poetry]
-name = "faucetconfrpc"
-version = "0.55.82"
-description = "utility to manage FAUCET config files via RPC"
+name = "faucetconfrpc-ng"
+version = "1.0.0"
+description = "utility to manage FAUCET config files via RPC (anarkiwi fork)"
 authors = ["Charlie Lewis <clewis@iqt.org>"]
 license = "Apache-2.0"
+packages = [{include = "faucetconfrpc", from = "src"}]
 
 [tool.poetry.dependencies]
 python = ">=3.11,<3.14"
