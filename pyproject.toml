@@ -11,7 +11,7 @@ python = ">=3.11,<3.14"
 c65faucet = "1.0.102"
 grpcio = "1.80.0"
 grpcio-tools = "1.80.0"
-protobuf = "6.33.6"
+protobuf = "7.34.1"
 prometheus_client = "0.25.0"
 pybind11 = "3.0.4"
 # dnspython 2.3.0 is not compatible with eventlet
