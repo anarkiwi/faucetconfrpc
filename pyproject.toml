@@ -9,7 +9,7 @@ packages = [{include = "faucetconfrpc", from = "src"}]
 [tool.poetry.dependencies]
 python = ">=3.11,<3.14"
 c65faucet = "1.0.102"
-grpcio = "1.80.0"
+grpcio = "1.81.0"
 grpcio-tools = "1.80.0"
 protobuf = "6.33.6"
 prometheus_client = "0.25.0"
