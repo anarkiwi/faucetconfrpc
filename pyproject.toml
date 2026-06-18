@@ -10,7 +10,7 @@ packages = [{include = "faucetconfrpc", from = "src"}]
 python = ">=3.11,<3.14"
 c65faucet = "1.0.102"
 grpcio = "1.81.1"
-grpcio-tools = "1.81.0"
+grpcio-tools = "1.81.1"
 protobuf = "6.33.6"
 prometheus_client = "0.25.0"
 pybind11 = "3.0.4"
