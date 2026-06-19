@@ -1435,14 +1435,14 @@ files = [
 
 [[package]]
 name = "os-ken"
-version = "4.2.0"
+version = "4.2.1"
 description = "A component-based software defined networking framework for OpenStack"
 optional = false
 python-versions = ">=3.10"
 groups = ["main"]
 files = [
-    {file = "os_ken-4.2.0-py3-none-any.whl", hash = "sha256:eb688d599f193258940ab50a55a59c4ab1243bc126bcef6d04d8bfaab04bdeec"},
-    {file = "os_ken-4.2.0.tar.gz", hash = "sha256:c7120748e93bca060427e3e5624a110a5c5b7bb907f8bb3ba4c1f77a07c5cb19"},
+    {file = "os_ken-4.2.1-py3-none-any.whl", hash = "sha256:5a5c6273fae28b38ba6dec71b50c6a9cace758a2613b20ba1b0254d3d2f52772"},
+    {file = "os_ken-4.2.1.tar.gz", hash = "sha256:731f5245069260d464c47ebd544bb5c1c344beb0ff37aaa8d6d888dcda67f1ce"},
 ]
 
 [package.dependencies]
