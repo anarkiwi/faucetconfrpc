@@ -65,4 +65,5 @@ jobs:
         PATH=~/go/bin:$PATH pytest -s ./tests/test_faucetconfrpc.py
     - name: golang install test
       run: |
+        go mod download && go build ./... && go vet ./... && \
         cd tests/gotest && go mod download && go build ./... && go vet ./...
