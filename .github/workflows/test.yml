@@ -49,6 +49,7 @@ jobs:
       env:
         PYTHONPATH: "."
         GO111MODULE: "on"
+        GOTOOLCHAIN: auto
       run: |
         go install github.com/square/certstrap@latest && \
         go install github.com/golang/protobuf/protoc-gen-go@latest && \
