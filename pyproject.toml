@@ -7,7 +7,7 @@ license = "Apache-2.0"
 packages = [{include = "faucetconfrpc", from = "src"}]
 
 [tool.poetry.dependencies]
-python = ">=3.11,<3.14"
+python = ">=3.12,<3.14"
 c65faucet = "1.0.106"
 grpcio = "1.85.0"
 grpcio-tools = "1.81.1"
